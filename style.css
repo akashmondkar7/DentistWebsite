@@ -1133,3 +1133,30 @@ h1, h2, h3, h4 {
   .hero-actions { flex-direction: column; align-items: flex-start; }
   .hero-stats   { flex-wrap: wrap; gap: 1rem; }
 }
+
+/* ------------------------------------------------------------
+   Mobile tweaks: improve Book Appointment button + navbar
+   ------------------------------------------------------------ */
+@media (max-width: 768px) {
+  /* Make appointment button full-width and compact inside mobile nav */
+  .mobile-nav .btn {
+    width: 100%;
+    padding: .65rem 1rem;
+    font-size: .95rem;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+
+  /* Slightly reduce navbar vertical padding on smaller screens */
+  .navbar { padding: .7rem 0; }
+
+  /* Prevent logo + controls from crowding */
+  .logo { font-size: 1rem; }
+  .nav-inner { gap: .5rem; }
+}
+
+@media (max-width: 480px) {
+  .mobile-nav .btn { padding: .6rem .9rem; font-size: .92rem; }
+  /* Keep hero title readable on very small screens */
+  .hero-title { font-size: clamp(1.8rem, 6vw, 2.4rem); }
+}
