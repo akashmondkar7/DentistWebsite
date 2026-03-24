@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ▸ Change the title to your clinic's name -->
+  <title>BrightSmile Dental Clinic | Expert Dental Care</title>
+  <meta name="description" content="Premium dental care — implants, orthodontics, whitening & more. Book your appointment today." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+       ============================================================ -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-inner">
+
+        <!-- ▸ Replace "BrightSmile" with your clinic name -->
+        <a href="index.html" class="logo" aria-label="BrightSmile Dental Clinic Home">
+          <div class="logo-icon" aria-hidden="true">🦷</div>
+          BrightSmile
+        </a>
+
+        <!-- Desktop Links -->
+        <ul class="nav-links" role="list">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- Book Appointment button (desktop) -->
+        <a href="contact.html" class="btn btn-primary" style="font-size:.82rem;padding:.7rem 1.5rem;">
+          📅 Book Appointment
+        </a>
+
+        <!-- Hamburger (mobile) -->
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+      </div><!-- /nav-inner -->
+
+      <!-- Mobile Dropdown Nav -->
+      <ul class="mobile-nav" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="btn btn-primary" style="text-align:center;margin-top:.5rem;">📅 Book Appointment</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- ============================================================
+       HERO SECTION
+       ▸ Edit title, description, and stat numbers below
+       ============================================================ -->
+  <section class="hero" aria-label="Hero banner">
+    <div class="container">
+      <div class="hero-grid">
+
+        <!-- Text Column -->
+        <div class="hero-text">
+          <div class="hero-badge">
+            <span>⭐</span> Rated #1 in the City — 2024 Awards
+          </div>
+
+          <!-- ▸ Main Headline — Edit as needed -->
+          <h1 class="hero-title">
+            Transforming Smiles<br />with <em>Expert Care</em>
+          </h1>
+
+          <!-- ▸ Tagline / subheadline -->
+          <p class="hero-desc">
+            World-class dental treatments in a calm, modern environment.
+            Your healthy, confident smile starts here.
+          </p>
+
+          <div class="hero-actions">
+            <a href="contact.html" class="btn btn-white">📅 Book Appointment</a>
+            <a href="services.html" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,.5);">
+              Our Services →
+            </a>
+          </div>
+
+          <!-- ▸ Stats — Update numbers to match your clinic -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-num">12+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">5K+</div>
+              <div class="stat-label">Happy Patients</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">98%</div>
+              <div class="stat-label">Satisfaction Rate</div>
+            </div>
+          </div>
+        </div><!-- /hero-text -->
+
+        <!-- Visual Card Column (hidden on mobile) -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-card">
+            <div class="hero-card-title">🦷 Our Treatments</div>
+
+            <!-- ▸ Edit service pills -->
+            <div class="service-pill"><div class="pill-icon">✨</div> Teeth Whitening</div>
+            <div class="service-pill"><div class="pill-icon">🔩</div> Dental Implants</div>
+            <div class="service-pill"><div class="pill-icon">📐</div> Orthodontics</div>
+            <div class="service-pill"><div class="pill-icon">🛡️</div> Root Canal</div>
+            <div class="service-pill"><div class="pill-icon">👶</div> Pediatric Dentistry</div>
+          </div>
+        </div><!-- /hero-visual -->
+
+      </div><!-- /hero-grid -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SERVICES GRID
+       ▸ Add or remove service cards below
+       ============================================================ -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Offer</span>
+        <h2 class="section-title">Comprehensive Dental Services</h2>
+        <p class="section-sub">From routine check-ups to advanced restorative treatments — we have you covered.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- ▸ Service Card 1 -->
+        <div class="service-card">
+          <div class="service-icon-wrap">🦷</div>
+          <h3>General Dentistry</h3>
+          <p>Routine exams, cleanings, fillings, and preventive care to keep your teeth healthy for life.</p>
+        </div>
+
+        <!-- ▸ Service Card 2 -->
+        <div class="service-card">
+          <div class="service-icon-wrap">✨</div>
+          <h3>Teeth Whitening</h3>
+          <p>Professional in-office whitening treatments that brighten your smile up to 8 shades.</p>
+        </div>
+
+        <!-- ▸ Service Card 3 -->
+        <div class="service-card">
+          <div class="service-icon-wrap">📐</div>
+          <h3>Orthodontics</h3>
+          <p>Traditional braces and clear aligners to straighten teeth discreetly and effectively.</p>
+        </div>
+
+        <!-- ▸ Service Card 4 -->
+        <div class="service-card">
+          <div class="service-icon-wrap">🔩</div>
+          <h3>Dental Implants</h3>
+          <p>Permanent, natural-looking tooth replacements that restore function and confidence.</p>
+        </div>
+
+        <!-- ▸ Service Card 5 -->
+        <div class="service-card">
+          <div class="service-icon-wrap">🛡️</div>
+          <h3>Root Canal</h3>
+          <p>Gentle, pain-free root canal therapy using modern techniques and anesthesia.</p>
+        </div>
+
+        <!-- ▸ Service Card 6 -->
+        <div class="service-card">
+          <div class="service-icon-wrap">👶</div>
+          <h3>Pediatric Dentistry</h3>
+          <p>Friendly, fun dental care for children of all ages in a welcoming environment.</p>
+        </div>
+
+      </div><!-- /services-grid -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       WHY CHOOSE US
+       ▸ Update features and stats below
+       ============================================================ -->
+  <section class="why-section">
+    <div class="container">
+      <div class="why-grid">
+
+        <div class="why-content">
+          <span class="section-tag">Why Choose Us</span>
+          <h2 class="section-title">Care You Can Trust, Results You'll Love</h2>
+
+          <div class="why-features">
+
+            <!-- ▸ Edit features -->
+            <div class="why-feature">
+              <div class="why-icon">🔬</div>
+              <div>
+                <h4>Advanced Technology</h4>
+                <p>Digital X-rays, 3D imaging, and laser dentistry for precise, comfortable treatment.</p>
+              </div>
+            </div>
+
+            <div class="why-feature">
+              <div class="why-icon">👨‍⚕️</div>
+              <div>
+                <h4>Experienced Specialists</h4>
+                <p>Our team of board-certified dentists brings decades of combined expertise.</p>
+              </div>
+            </div>
+
+            <div class="why-feature">
+              <div class="why-icon">💳</div>
+              <div>
+                <h4>Flexible Payment Plans</h4>
+                <p>Interest-free EMIs and all major insurance plans accepted.</p>
+              </div>
+            </div>
+
+            <div class="why-feature">
+              <div class="why-icon">⏰</div>
+              <div>
+                <h4>Same-Day Appointments</h4>
+                <p>We fit you in fast. Emergency slots available 7 days a week.</p>
+              </div>
+            </div>
+
+          </div>
+        </div><!-- /why-content -->
+
+        <!-- ▸ Big stat card — update number -->
+        <div class="why-visual" aria-hidden="true">
+          <div class="big-num">5K+</div>
+          <p>Happy patients trust us with their smiles every year</p>
+          <div style="margin-top:2rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.15);">
+            <div style="font-size:.85rem;color:rgba(255,255,255,.6);margin-bottom:.5rem;">📍 Located at</div>
+            <!-- ▸ Replace with your clinic address -->
+            <div style="font-family:'Montserrat',sans-serif;font-weight:700;color:#fff;font-size:1rem;">
+              123 Dental Avenue, Mumbai
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /why-grid -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       TESTIMONIALS
+       ▸ Replace with real patient reviews
+       ============================================================ -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Patient Stories</span>
+        <h2 class="section-title">What Our Patients Say</h2>
+      </div>
+
+      <div class="testimonials-grid">
+
+        <!-- ▸ Review 1 -->
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <blockquote>"The team at BrightSmile made my implant procedure completely painless. My smile has never looked better!"</blockquote>
+          <div class="reviewer">
+            <div class="reviewer-avatar">PS</div>
+            <div>
+              <div class="reviewer-name">Priya Sharma</div>
+              <div class="reviewer-label">Dental Implants Patient</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ▸ Review 2 -->
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <blockquote>"I was terrified of root canals. Dr. Mehta was so gentle and reassuring — I barely felt a thing. Highly recommend!"</blockquote>
+          <div class="reviewer">
+            <div class="reviewer-avatar">AK</div>
+            <div>
+              <div class="reviewer-name">Arjun Kumar</div>
+              <div class="reviewer-label">Root Canal Patient</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ▸ Review 3 -->
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <blockquote>"My kids love going to the dentist now! The pediatric team is so warm and fun. Our whole family comes here."</blockquote>
+          <div class="reviewer">
+            <div class="reviewer-avatar">RD</div>
+            <div>
+              <div class="reviewer-name">Rohan & Divya</div>
+              <div class="reviewer-label">Family Patients</div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /testimonials-grid -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CTA BANNER
+       ============================================================ -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Ready for Your Best Smile?</h2>
+      <p>Book a free consultation today. No hidden fees, no pressure — just honest care.</p>
+      <a href="contact.html" class="btn btn-white">📅 Book a Free Consultation</a>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+       ▸ Update contact details, social links, address
+       ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <div class="logo" style="margin-bottom:.75rem;">
+            <div class="logo-icon" style="background:var(--accent);">🦷</div>
+            BrightSmile
+          </div>
+          <!-- ▸ Short clinic tagline -->
+          <p>Transforming smiles with expert, compassionate dental care since 2012.</p>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <!-- ▸ Replace with real contact details -->
+          <ul>
+            <li><a href="tel:+911234567890">📞 +91 12345 67890</a></li>
+            <li><a href="mailto:hello@brightsmile.in">✉️ hello@brightsmile.in</a></li>
+            <li><a href="contact.html">📍 123 Dental Ave, Mumbai</a></li>
+            <li><a href="#">🕐 Mon–Sat 9AM – 8PM</a></li>
+          </ul>
+        </div>
+
+      </div><!-- /footer-grid -->
+
+      <div class="footer-bottom">
+        <!-- ▸ Update clinic name and year -->
+        <p>© 2025 BrightSmile Dental Clinic. All rights reserved. Built with ❤️ for healthier smiles.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ============================================================
+       WHATSAPP FLOATING BUTTON
+       ▸ Replace YOUR_PHONE_NUMBER with your WhatsApp number (include country code, no + or spaces)
+       Example: 919876543210 for +91 987 654 3210
+       ============================================================ -->
+  <a
+    href="https://wa.me/YOUR_PHONE_NUMBER?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment."
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat on WhatsApp"
+    title="Chat with us on WhatsApp"
+  >
+    💬
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
